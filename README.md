@@ -16,7 +16,7 @@ Backend:
 - MongoDB
 - PassportJS
 
-# Third party APIs used for some services:
+Third party APIs used for some services:
 - Cloudinary as the cloud storage for the hotel images
 - Mapbox for the mapping
 - MongoDB Atlas for the database
