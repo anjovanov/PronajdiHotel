@@ -1,14 +1,25 @@
 # PronajdiHotel
 
-A web app that allows you to Add/Remove/Edit and Browse through hotels, and leave 1-5 star reviews.
+A web app that allows you to create, edit and remove hotels. Users will be able to leave reviews on individual hotels and later on remove or edit it.
+Users are required to authenticate (register/login) in order to be able to create hotels or leave reviews.
 
-Technologies used:
+# Technologies used
 
-- Javascript
+Frontend:
+- HTML
+- CSS
+- Bootstrap
+
+Backend:
 - NodeJS
 - ExpressJS
 - MongoDB
-- Bootstrap
+- PassportJS
+
+# Third party APIs used for some services:
+- Cloudinary as the cloud storage for the hotel images
+- Mapbox for the mapping
+- MongoDB Atlas for the database
 
 All other dependencies can be found in the package.json file.
 
